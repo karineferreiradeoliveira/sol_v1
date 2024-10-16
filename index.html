@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sol Serviços</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Sol Serviços</div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#navbar">Home</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <li class="exit-button"><button id="exit-btn">X</button></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1>Preparação de Solo para Construção e Paisagismo</h1>
+        <p>Pronto para dar o primeiro passo no seu projeto?</p>
+        <a
+          href="https://wa.me/5577998578998?text=Olá,%20gostaria%20de%20mais%20informações!"
+          class="cta-button"
+          >Solicitar Orçamento Gratuito</a
+        >
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Nossos Serviços</h2>
+      <div class="service-container">
+        <div class="service-box">
+          <img src="/src/work.jpg" alt="" />
+          <h3>Limpeza</h3>
+          <p>
+            Nosso serviço de limpeza de terreno inclui a remoção de entulho,
+            vegetação, pedras e outros obstáculos, deixando o local totalmente
+            preparado para receber qualquer tipo de construção.
+          </p>
+        </div>
+        <div class="service-box">
+          <img src="/src/retro.jpg" alt="" />
+          <h3>Aterramento</h3>
+          <p>
+            Nosso serviço de limpeza de terreno inclui a remoção de entulho,
+            vegetação, pedras e outros obstáculos, deixando o local totalmente
+            preparado para receber qualquer tipo de construção.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <img src="/src/work.jpg" alt="" />
+          <h3>Nivelamento</h3>
+          <p>
+            Nosso serviço de limpeza de terreno inclui a remoção de entulho,
+            vegetação, pedras e outros obstáculos, deixando o local totalmente
+            preparado para receber qualquer tipo de construção.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-business" id="about">
+      <div class="about-content">
+        <h2>Sobre Nós</h2>
+        <p class="tagline">Garantimos a base perfeita do seu projeto.</p>
+        <p>
+          Na Sol Transportes, transformamos seu terreno no espaço ideal para
+          seus projetos. Especializados em limpeza de lotes, realizamos
+          terraplanagem, aterro e descarte de entulhos, com foco em eficiência e
+          segurança.
+        </p>
+        <p>
+          Com uma equipe qualificada e equipamentos modernos, garantimos
+          agilidade, qualidade e atenção aos detalhes em cada etapa do processo,
+          para que você possa começar a construir com tranquilidade e confiança.
+        </p>
+        <a
+          href="https://wa.me/5577998578998?text=Olá,%20gostaria%20de%20mais%20informações!"
+          class="cta-button"
+          >Solicitar Orçamento Gratuito</a
+        >
+      </div>
+      <div class="about-image">
+        <img src="src/sobre.webp" alt="About Business" />
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <h2>
+        mais recentes
+        <div class="decor"></div>
+      </h2>
+
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="src/img_hero.jpg" alt="Job 1" />
+          <div class="overlay">
+            <h3>Project Title 1</h3>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="src/img_hero.jpg" alt="Job 2" />
+          <div class="overlay">
+            <h3>Project Title 2</h3>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="src/img_hero.jpg" alt="Job 3" />
+          <div class="overlay">
+            <h3>Project Title 3</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Two Column Section with Form and Image -->
+
+    <section class="form-image-section">
+      <h2>Entre em Contato</h2>
+      <p class="cta-form">
+        Estamos prontos para ajudar você com a terraplanagem e segurança de suas
+        construções. Contate-nos e tire suas dúvidas.
+      </p>
+      <div class="image-column">
+        <div class="contact-infos">
+          <h3>Fale</h3>
+          <p>(77) 9 9857-8998</p>
+          <h3>Email</h3>
+          <p>contato@solservicosetransportes.com</p>
+        </div>
+      </div>
+      <div class="form-column">
+        <form class="contact-form">
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Nome"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              placeholder="Mensagem"
+            ></textarea>
+          </div>
+          <button type="submit" class="cta-button">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Botão flutuante de WhatsApp -->
+    <a
+      href="https://wa.me/5577998578998?text=Olá,%20gostaria%20de%20mais%20informações!"
+      class="whatsapp-button"
+      target="_blank"
+    >
+      <img src="src/whatsapp1.png" alt="Ícone WhatsApp" />
+    </a>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <h3>Contate-nos</h3>
+          <p>
+            Endereço: Rua Tom Jobim, Jardim Paraíso, Luís Eduardo Magalhães - Ba
+          </p>
+          <p>WhatsApp: (77) 9 9857-8998</p>
+          <p>Email: contato@soltransportes.com</p>
+        </div>
+
+        <div class="footer-center">
+          <h3>Siga-nos</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <p>&copy; 2024 Sol Transportes.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
