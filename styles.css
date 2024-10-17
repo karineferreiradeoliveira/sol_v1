@@ -564,7 +564,12 @@ body {
   flex: 1;
   padding: 10px;
 }
-
+.footer-center{
+  padding: 2px;
+  text-align: center;
+  border-left: 1px solid #30452e;
+  border-right: 1px solid #30452e;
+}
 .footer h3 {
   margin-bottom: 30px;
   font-size: 20px;
