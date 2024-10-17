@@ -8,7 +8,13 @@ hamburger.addEventListener('click', () => {
   navLinks.classList.add('active');
 });
 
-// Fechar o menu ao clicar no botão "Sair"
+// Fechar o menu ao clicar no botão "Sair" ou em um link
 exitButton.addEventListener('click', () => {
   navLinks.classList.remove('active');
+});
+
+navLinks.addEventListener('click', (event) => {
+  if (event.target.tagName === 'A') {
+    navLinks.classList.remove('active');
+  }
 });
