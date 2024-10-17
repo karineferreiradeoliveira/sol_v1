@@ -591,10 +591,13 @@ body {
 }
 
 .footer p {
-  margin-bottom: 10px;
   font-size: 16px;
   line-height: 1.8;
 }
+.footer-contact{
+  margin-bottom: 50px;
+}
+
 
 /* Social Media Icons */
 .social-icons {
@@ -614,10 +617,13 @@ body {
 }
 
 /* Copyright Section */
+
 .footer-right p {
-  margin-top: 40px;
-  font-size: 14px;
+  margin-top:40px ;
+  font-size: 12px;
   opacity: 0.8;
+  text-align: center;
+  
 }
 .footer-left img {
   padding: 20px 0 ;
