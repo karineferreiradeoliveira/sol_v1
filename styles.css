@@ -192,12 +192,14 @@ body {
   padding: 50px 20px;
   background-color: #f9f9f9;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .services h2 {
   font-size: 28px;
   color: #333;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  position: relative;
 }
 
 .service-container {
@@ -235,12 +237,7 @@ body {
 .service-box:hover {
   transform: translateY(-10px);
 }
-.decor {
-  width: 50px;
-  height: 5px;
-  background-color: #f39c12;
-  margin: 0 527px;
-}
+
 /* Responsive */
 @media (max-width: 768px) {
   .service-container {
@@ -273,6 +270,7 @@ body {
   font-size: 28px;
   margin-bottom: 20px;
   color: #f9f9f9;
+  position: relative;
 }
 
 .about-content .tagline {
@@ -333,6 +331,9 @@ body {
     font-size: 28px;
     
   }
+  .underline-icon .icon{
+    left: 50%;
+  }
 
   .cta-button {
     padding: 12px 25px;
@@ -351,6 +352,18 @@ body {
   font-size: 28px;
   margin-bottom: 40px;
   color: #333;
+  position: relative;
+
+}
+.underline-icon .icon {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color: #e67e22;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Gallery Container */
@@ -443,6 +456,7 @@ body {
   margin-top: 0;
   font-size: 28px;
   color: #333;
+  position: relative;
 }
 
 .contact-info p {
@@ -541,13 +555,14 @@ body {
 /* Footer Styles #333 */
 .footer {
   background-color: #27322a;
-  color: white;
+  color: #f9f9f9;
   padding: 40px 20px;
   text-align: center;
   position: relative;
   bottom: 0;
   width: 100%;
 }
+
 
 .footer-container {
   display: flex;
@@ -565,7 +580,7 @@ body {
   padding: 10px;
 }
 .footer-center{
-  padding: 2px;
+  padding: 50px;
   text-align: center;
   border-left: 1px solid #30452e;
   border-right: 1px solid #30452e;
@@ -590,7 +605,7 @@ body {
   display: inline-block;
   margin-right: 15px;
   font-size: 24px;
-  color: white;
+  color:#f9f9f9;
   transition: color 0.3s ease;
 }
 
