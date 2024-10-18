@@ -418,13 +418,6 @@ body {
 
 /* Footer Styles #333 */
 
-footer {
-  background-color: var(--primary-color);
-  color: var(--second-text-color);
-  padding: 40px 20px;
-  text-align: center;
-}
-
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -432,6 +425,10 @@ footer {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: var(--primary-color);
+  color: var(--second-text-color);
+  padding: 40px 20px;
+  text-align: center;
 }
 
 .footer-column {
