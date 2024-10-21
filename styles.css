@@ -438,7 +438,10 @@ body {
   min-width: 250px;
   padding: 10px;
 }
-
+.footer-column h2{
+  text-decoration: none;
+  color: var(--second-text-color);
+}
 .footer-logo {
   width: 150px;
   margin-bottom: 20px;
