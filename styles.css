@@ -35,7 +35,8 @@ body {
   list-style: none;
 }
 .nav-links li {
-  margin-left: 20px;
+  margin-left:20px;
+  
 }
 .nav-links a {
   color: var(--second-text-color);
@@ -45,7 +46,7 @@ body {
   transition: color 0.3s;
 }
 .nav-links a:hover {
-  color: var(--second-color);
+  color: var(--hover-color);
 }
 
 /* Hamburger Icon */
@@ -263,7 +264,7 @@ body {
 }
 .about-content .tagline {
   font-size: 18px;
-  color: var(--primary-dec-text-color);
+  color: var(--primary-color);
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -281,6 +282,17 @@ body {
   max-width: 100%;
   border-radius: 5px;
   
+}
+
+.underline-icon2 .icon2{
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  background-color: var(--hover-color);
+  position: absolute;
+  bottom: -5px;
+  left: 10%;
+  transform: translateX(-50%);
 }
 
 /* Responsive */
