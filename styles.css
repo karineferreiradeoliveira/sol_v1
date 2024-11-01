@@ -502,4 +502,7 @@ i {
   .footer-column {
     margin-bottom: 20px;
   }
+  .footer-column h2{
+    text-decoration: none;
+  }
 }
