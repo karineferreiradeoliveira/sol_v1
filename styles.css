@@ -188,7 +188,7 @@ body {
 /* Services Section */
 .services {
   padding: 80px 50px;
-  background-color: var(--second-text-color);
+  background-color:var(--second-text-color);
   text-align: center;
 }
 .services h2 {
