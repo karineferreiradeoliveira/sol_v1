@@ -358,21 +358,19 @@ body {
 }
 .gallery-item {
   padding: 40px 5px;
+  
 }
+
 /* Overlay
 /* Overlay */
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  
-  background-color: rgba(0, 0, 0, 0.6);
   color: var(--second-text-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 .overlay h3 {
   font-size: 18px;
