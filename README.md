@@ -1,7 +1,8 @@
 # sol_v1
 
 Landing page desenvolvida para a empresa **Sol Transportes**, especializada em **limpeza e terraplanagem de terrenos**.  
-O projeto tem como principal objetivo **reforçar a presença digital da marca**, **aumentar a visibilidade nos buscadores (SEO)** e **transmitir uma imagem mais profissional** dentro do seu nicho de atuação.
+O projeto tem como principal objetivo **reforçar a presença digital da marca**, **aumentar a visibilidade nos buscadores (SEO)**
+e **transmitir uma imagem mais profissional** dentro do seu nicho de atuação.
 
 ---
 
@@ -21,3 +22,5 @@ A ideia inicial do cliente foi criar uma página que:
 - **Responsividade mobile-first**
 
 - Visite em: https://solservicos-u2eh.vercel.app/
+
+- Projeto de UI/Ux e desenvolvimento, criados por mim.
