@@ -24,3 +24,5 @@ A ideia inicial do cliente foi criar uma página que:
 - Visite em: https://solservicos-u2eh.vercel.app/
 
 - Projeto de UI/Ux e desenvolvimento, criados por mim.
+
+- Projeto descontinuado.
